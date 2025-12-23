@@ -18,9 +18,14 @@ Este curso aborda os fundamentos de SQL utilizando SQLite, incluindo:
 ```
 sqlite/
 ├── ex001/          # Exercício 1 - Consultas básicas
-├── ex002/          # Exercício 2
-├── ex003/          # Exercício 3
+├── ex002/          # Exercício 2 - Consultas DISTINCT
+├── ex003/          # Exercício 3 - Seleção de produtos
 ├── ex004/          # Exercício 4 - Consultas com filtros de data
+├── ex005/          # Exercício 5 - Criação de tabelas
+├── ex006/          # Exercício 6 - Alteração de tabelas (ALTER)
+├── ex007/          # Exercício 7 - Exclusão de tabelas (DROP)
+├── ex008/          # Exercício 8 - Criação de tabela de categorias
+├── ex009/          # Exercício 9 - Criação de tabela com Foreign Keys
 └── tabelas/        # Dados para os exercícios
     ├── desafios/
     │   ├── tabela+clientes+desafio+aula+1+.csv
@@ -34,17 +39,32 @@ sqlite/
 
 ## 🎯 Conteúdo dos Exercícios
 
-### Ex001
-Consultas básicas de seleção com filtragem por país de origem.
+### Ex001 - Consultas básicas com WHERE
+Consultas básicas de seleção com filtragem por país de origem usando a cláusula WHERE.
 
-### Ex002
-Manipulação e consultas intermediárias.
+### Ex002 - DISTINCT
+Consultas utilizando DISTINCT para selecionar valores únicos de clientes.
 
-### Ex003
-Operações avançadas de consulta.
+### Ex003 - Seleção de produtos únicos
+Operações de consulta para identificar produtos únicos utilizando DISTINCT.
 
-### Ex004
-Consultas com filtros de data e seleção de campos específicos.
+### Ex004 - Filtros de data
+Consultas com filtros de data e seleção de campos específicos (clientes cadastrados antes de 2020).
+
+### Ex005 - CREATE TABLE (Clientes)
+Criação de tabela de clientes com campos ID, Nome e Informações de Contato.
+
+### Ex006 - ALTER TABLE
+Alteração de estrutura de tabela usando ALTER TABLE para adicionar coluna de endereço.
+
+### Ex007 - DROP TABLE
+Exclusão de tabelas do banco de dados usando o comando DROP TABLE.
+
+### Ex008 - CREATE TABLE (Categorias)
+Criação de tabela de categorias com ID, Nome e Descrição.
+
+### Ex009 - Foreign Keys
+Criação de tabela de produtos com relacionamentos (Foreign Keys) para categorias e fornecedores.
 
 ## 🛠️ Tecnologias Utilizadas
 
