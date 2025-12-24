@@ -26,6 +26,10 @@ sqlite/
 ├── ex007/          # Exercício 7 - Exclusão de tabelas (DROP)
 ├── ex008/          # Exercício 8 - Criação de tabela de categorias
 ├── ex009/          # Exercício 9 - Criação de tabela com Foreign Keys
+├── ex010/          # Exercício 10 - INSERT INTO (primeiro registro)
+├── ex011/          # Exercício 11 - INSERT INTO (múltiplos registros)
+├── ex012/          # Exercício 12 - CREATE TABLE (Pedidos Gold)
+├── ex013/          # Exercício 13 - INSERT com SELECT (filtragem)
 └── tabelas/        # Dados para os exercícios
     ├── desafios/
     │   ├── tabela+clientes+desafio+aula+1+.csv
@@ -65,6 +69,18 @@ Criação de tabela de categorias com ID, Nome e Descrição.
 
 ### Ex009 - Foreign Keys
 Criação de tabela de produtos com relacionamentos (Foreign Keys) para categorias e fornecedores.
+
+### Ex010 - INSERT INTO (Primeiro Registro)
+Inserção do primeiro registro na tabela de clientes utilizando INSERT INTO.
+
+### Ex011 - INSERT INTO (Múltiplos Registros)
+Inserção de múltiplos registros simultaneamente na tabela de clientes.
+
+### Ex012 - CREATE TABLE (Pedidos Gold)
+Criação de tabela de pedidos gold com Foreign Key referenciando a tabela de clientes.
+
+### Ex013 - INSERT com SELECT
+Inserção de dados em tabela utilizando SELECT para filtrar pedidos com valor igual ou superior a R$ 400,00.
 
 ## 🛠️ Tecnologias Utilizadas
 
