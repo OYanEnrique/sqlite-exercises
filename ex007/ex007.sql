@@ -1,1 +1,1 @@
-DROP TABLE tabelasclientes
+DROP TABLE tabelaclientes
