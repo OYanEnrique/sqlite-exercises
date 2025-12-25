@@ -30,6 +30,10 @@ sqlite/
 ├── ex011/          # Exercício 11 - INSERT INTO (múltiplos registros)
 ├── ex012/          # Exercício 12 - CREATE TABLE (Pedidos Gold)
 ├── ex013/          # Exercício 13 - INSERT com SELECT (filtragem)
+├── ex014/          # Exercício 14 - Operadores de comparação (<>, >, <)
+├── ex015/          # Exercício 15 - Operadores lógicos (AND, OR, NOT, BETWEEN)
+├── ex016/          # Exercício 16 - ORDER BY (ASC e DESC)
+├── ex017/          # Exercício 17 - SELECT com alias (AS)
 └── tabelas/        # Dados para os exercícios
     ├── desafios/
     │   ├── tabela+clientes+desafio+aula+1+.csv
@@ -81,6 +85,18 @@ Criação de tabela de pedidos gold com Foreign Key referenciando a tabela de cl
 
 ### Ex013 - INSERT com SELECT
 Inserção de dados em tabela utilizando SELECT para filtrar pedidos com valor igual ou superior a R$ 400,00.
+
+### Ex014 - Operadores de Comparação
+Consultas utilizando operadores de comparação (<>, >, <) para filtrar dados de pedidos e clientes.
+
+### Ex015 - Operadores Lógicos
+Consultas com operadores lógicos (AND, OR, NOT) e BETWEEN para filtros condicionais complexos.
+
+### Ex016 - ORDER BY
+Ordenação de resultados utilizando ORDER BY em ordem crescente (ASC) e decrescente (DESC).
+
+### Ex017 - SELECT com Alias (AS)
+Uso de alias (AS) para renomear colunas nos resultados das consultas.
 
 ## 🛠️ Tecnologias Utilizadas
 
