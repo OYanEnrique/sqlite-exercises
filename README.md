@@ -34,6 +34,9 @@ sqlite/
 ├── ex015/          # Exercício 15 - Operadores lógicos (AND, OR, NOT, BETWEEN)
 ├── ex016/          # Exercício 16 - ORDER BY (ASC e DESC)
 ├── ex017/          # Exercício 17 - SELECT com alias (AS)
+├── ex018/          # Exercício 18 - UPDATE (Atualização de registros)
+├── ex019/          # Exercício 19 - DELETE (Exclusão de registros)
+├── ex020/          # Exercício 20 - Projeto Final (CRUD completo)
 └── tabelas/        # Dados para os exercícios
     ├── desafios/
     │   ├── tabela+clientes+desafio+aula+1+.csv
@@ -97,6 +100,15 @@ Ordenação de resultados utilizando ORDER BY em ordem crescente (ASC) e decresc
 
 ### Ex017 - SELECT com Alias (AS)
 Uso de alias (AS) para renomear colunas nos resultados das consultas.
+
+### Ex018 - UPDATE
+Atualização de registros existentes utilizando UPDATE para modificar status de pedidos e informações de clientes.
+
+### Ex019 - DELETE
+Exclusão de registros da base de dados utilizando DELETE com condições WHERE para filtrar os dados a serem removidos.
+
+### Ex020 - Projeto Final (CRUD Completo)
+Projeto final integrando todas as operações CRUD (Create, Read, Update, Delete) com criação de tabelas de funcionários e projetos, incluindo relacionamentos com Foreign Keys.
 
 ## 🛠️ Tecnologias Utilizadas
 
